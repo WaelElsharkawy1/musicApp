@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">musicApp</string>
+    <string name="home">Home</string>
+    <string name="menu_of_my_app_that_enable_user_to_play_music_choose_from_play_list_choose_song_from_his_favourite_artist">Menu Of my App that enable user to play music ,choose from play list ,choose song from his favourite Artist</string>
+    <string name="choose_song">Choose Song</string>
+    <string name="play_list">Play List</string>
+    <string name="buy_song">Buy Song</string>
+    <string name="artists">Artists</string>
+    <string name="setting">Setting</string>
+    <string name="here_user_select_songs_from_his_her_device_and_play_pause_step_forward_or_backward">Here user select songs from his/her device and play ,pause ,step forward or backward</string>
+    <string name="play_back_button">play back button</string>
+    <string name="play_button">play button</string>
+    <string name="play_next">Play next</string>
+    <string name="back_home">Back home</string>
+    <string name="here_is_the_playlists_of_favourite_songs_or_most_played">Here is the playlists of favourite songs or most played</string>
+    <string name="playlist">Playlist</string>
+    <string name="here_each_artist_with_there_songs_are_placed_and_the_favourite_artists_for_the_user">Here each artist with there songs are placed and the favourite artists for the user</string>
+    <string name="buy_songs">Buy Songs</string>
+    <string name="here_each_user_can_search_for_songs_and_use_it_s_payment_method_to_buy_songs">Here Each user can search for songs and use it\'s payment method to buy songs</string>
+    <string name="here_the_setting_of_my_app">Here the setting of my app</string>
+    <string name="song_name">Song name</string>
+    <string name="artist_name">artist name</string>
+    <string name="row_layout_play">row layout play</string>
+</resources>
