@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.waelelsharkawy.musicapp">
 
     <application
         android:allowBackup="true"
+        android:fullBackupContent="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,11 +19,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:label="Choose and Play song" android:name=".choose_song" />
-        <activity android:label="Play list" android:name=".Play_list" />
-        <activity android:label="Artists" android:name=".Artists" />
-        <activity android:label="Buy and search for songs" android:name=".Buy_song" />
-        <activity android:label="Setting" android:name=".Setting"/>
+        <activity
+            android:name=".choose_song"
+            android:label="Choose and Play song" />
+        <activity
+            android:name=".Play_list"
+            android:label="Play list" />
+        <activity
+            android:name=".Artists"
+            android:label="Artists" />
+        <activity
+            android:name=".Buy_song"
+            android:label="Buy and search for songs" />
+        <activity
+            android:name=".Setting"
+            android:label="Setting" />
     </application>
 
 </manifest>
